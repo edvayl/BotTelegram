@@ -56,7 +56,7 @@ def unknown(bot, update):
 
 
 def main():
-    updater = Updater(token="830193229:AAFoDBIWv2Yx9qN2RDIQpCD2PkzUjK5etsA")
+    updater = Updater()
 
     dispatcher = updater.dispatcher
 
